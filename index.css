@@ -1,6 +1,68 @@
+/* Configurações Gerais */
+
 * {
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth; /* Efeito de rolagem suave */
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Configurações de Cabeçalho */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 20px 40px;
+    /* Configurações para manter o menu fixado */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: #11111149;
+}
+
+#listaMenu {
+    display: flex;
+    list-style-type: none;
+}
+
+#listaMenu li {
+    margin: 0 20px;
+}
+
+#listaMenu li a {
+    text-decoration: none;
+    color: white;
+    font: normal normal 1em arial, sans-serif;
+    transition: 0.3s;
+}
+
+#listaMenu li a:hover {
+    background-color: rgba(0, 0, 0, 0.135);
+}
+
+.contato #btnCadastrar {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(254, 70, 70, 0.875);
+    cursor: pointer;
+    font: normal normal 1.2em arial, sans-serif;
+    transition: 0.3s;
+}
+
+.contato #btnCadastrar:hover {
+    background-color: rgba(254, 70, 70, 0.7);
+}
+
+/* Configurações do Conteudo Principal */
