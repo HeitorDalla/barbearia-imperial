@@ -1,3 +1,5 @@
+/* font-family: 'Julius Sans One', sans-serif; */
+
 /* Configurações Gerais */
 
 * {
@@ -38,7 +40,7 @@ header {
 }
 
 #listaMenu li {
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 #listaMenu li a {
@@ -53,6 +55,7 @@ header {
 }
 
 .contato #btnCadastrar {
+    margin: 0 40px;
     padding: 10px;
     border-radius: 8px;
     background-color: rgba(254, 70, 70, 0.875);
@@ -66,3 +69,19 @@ header {
 }
 
 /* Configurações do Conteudo Principal */
+
+#apresentacao {
+    min-height: 100vh; /* Colocar que a altura é toda a view height */
+    /* Configurações para o bakground */
+    background: url(/img/imagemCapa.png) no-repeat left center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#sobreBarbearia {
+    padding: 30px 20px;
+    background-color: rgba(222, 184, 135, 0.637);
+}
