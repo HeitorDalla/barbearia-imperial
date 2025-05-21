@@ -1,4 +1,5 @@
 /* font-family: 'Julius Sans One', sans-serif; */
+/* Fonte para o rodapé: 
 
 /* Configurações Gerais */
 
@@ -84,4 +85,39 @@ header {
 #sobreBarbearia {
     padding: 30px 20px;
     background-color: rgba(222, 184, 135, 0.637);
+}
+
+/* Configurações do rodapé da página */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #0c0c0cc6;
+    color: rgba(255, 255, 255, 0.922);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: normal normal 16px;
+}
+
+footer #informacoesContato {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+footer #socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #direitosAutorais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font: normal bold 24px verdana, sans-serif;
+    margin: 0 0 12px 0;
 }
