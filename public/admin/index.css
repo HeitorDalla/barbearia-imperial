@@ -73,7 +73,7 @@ header {
 #apresentacao {
     min-height: 100vh; /* Colocar que a altura é toda a view height */
     /* Configurações para o bakground */
-    background: url(/img/imagemCapa.png) no-repeat left center;
+    background: url(/img/imagemCapa.png) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
